@@ -1,4 +1,4 @@
-Machine Learning Hackathon
+#Machine Learning Hackathon
 by Agile
 
 https://www.eventbrite.ca/e/machine-learning-hackathon-tickets-50118308209
