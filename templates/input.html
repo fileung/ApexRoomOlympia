@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Hackathon Image App</title>
+<style>
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  color: gray;
+  font-size: 25px;
+  font-weight: bold;
+}
+</style>
+</head>
+   <body>
+       <form action = "/uploader" method = "POST" enctype = "multipart/form-data">
+          <div class="upload-btn-wrapper">
+             <input type = "file" name = "file" />
+             <input type = "submit" value="Upload and Scan Image" class="btn" />
+          </div>
+      </form>  
+   </body>
+</html>              
